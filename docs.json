@@ -14,7 +14,7 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Overview & Introduction",
+            "group": "Overview",
             "pages": [
               "index",
               "quickstart",
@@ -23,14 +23,14 @@
             ]
           },
           {
-            "group": "Customization",
+            "group": "Product",
             "pages": [
               "essentials/settings",
               "essentials/navigation"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Team",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -39,7 +39,7 @@
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Closing",
             "pages": [
               "ai-tools/cursor",
               "ai-tools/claude-code",
