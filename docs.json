@@ -18,14 +18,17 @@
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "development",
+              "Monetization"
             ]
           },
           {
             "group": "Product",
             "pages": [
               "essentials/settings",
-              "essentials/navigation"
+              "essentials/navigation",
+              "Target",
+              "Market"
             ]
           },
           {
