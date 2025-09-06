@@ -18,8 +18,7 @@
             "pages": [
               "index",
               "quickstart",
-              "development",
-              "Monetization"
+              "development"
             ]
           },
           {
@@ -28,7 +27,8 @@
               "essentials/settings",
               "essentials/navigation",
               "Target",
-              "Market"
+              "Market",
+              "Monetization"
             ]
           },
           {
