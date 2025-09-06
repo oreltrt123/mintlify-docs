@@ -37,15 +37,16 @@
               "essentials/markdown",
               "essentials/code",
               "essentials/images",
-              "essentials/reusable-snippets"
+              "essentials/reusable-snippets",
+              "Risk",
+              "Financial"
             ]
           },
           {
             "group": "Closing",
             "pages": [
               "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "ai-tools/claude-code"
             ]
           }
         ]
