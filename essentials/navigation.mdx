@@ -1,86 +1,52 @@
 ---
-title: "Features"
-description: "The navigation field in docs.json defines the pages that go in the navigation menu"
-icon: "map"
+title: Features
+description: Core capabilities of Zerlo AI-powered 3D game creation
 ---
 
-The navigation menu is the list of links on every website.
+import { Callout } from "nextra/components";
 
-You will likely update `docs.json` every time you add a new page. Pages do not show up automatically.
+# Features / Capabilities  
 
-## Navigation syntax
+Zerlo is designed with a set of **powerful AI-driven tools** that make 3D game creation fast, intuitive, and scalable. These features empower creators at every level — from hobbyists to studios.  
 
-Our navigation syntax is recursive which means you can make nested navigation groups. You don't need to include `.mdx` in page names.
+---
 
-<CodeGroup>
+## AI-Powered World Generation  
+Automatically build immersive 3D landscapes, terrains, and environments. Users can generate forests, cities, or entire worlds with a single prompt.  
 
-```json Regular Navigation
-"navigation": {
-  "tabs": [
-    {
-      "tab": "Docs",
-      "groups": [
-        {
-          "group": "Getting Started",
-          "pages": ["quickstart"]
-        }
-      ]
-    }
-  ]
-}
-```
+---
 
+## Intelligent NPC Creation  
+AI designs and animates non-playable characters (NPCs) that respond dynamically to player actions, giving games lifelike behavior without manual scripting.  
 
-```json Nested Navigation
-"navigation": {
-  "tabs": [
-    {
-      "tab": "Docs",
-      "groups": [
-        {
-          "group": "Getting Started",
-          "pages": [
-            "quickstart",
-            {
-              "group": "Nested Reference Pages",
-              "pages": ["nested-reference-page"]
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
-```
+---
 
-</CodeGroup>
+## Natural Language Interface  
+Instead of coding, creators describe their game logic in plain English.  
+Example: *“When the player enters the cave, spawn a dragon.”* Zerlo instantly translates this into functional game mechanics.  
 
-## Folders
+---
 
-Simply put your MDX files in folders and update the paths in `docs.json`.
+## Cross-Platform Export  
+Games built with Zerlo can be exported to:  
+- **PC**  
+- **Mobile**  
+- **VR**  
 
-For example, to have a page at `https://yoursite.com/your-folder/your-page` you would make a folder called `your-folder` containing an MDX file called `your-page.mdx`.
+This ensures creators reach players across devices with no extra setup.  
 
-<Warning>
-  You cannot use `api` for the name of a folder unless you nest it inside another folder. Mintlify uses Next.js which reserves the top-level `api` folder for internal server calls. A folder name such as `api-reference` would be accepted.
-</Warning>
+---
 
-```json Navigation With Folder
-"navigation": {
-  "tabs": [
-    {
-      "tab": "Docs",
-      "groups": [
-        {
-          "group": "Group Name",
-          "pages": ["your-folder/your-page"]
-        }
-      ]
-    }
-  ]
-}
-```
+## Real-Time Collaboration *(optional)*  
+Multiple creators can work on the same game simultaneously, allowing students, teams, or studios to collaborate like they would in Google Docs.  
 
-## Hidden pages
+---
 
-MDX files not included in `docs.json` will not show up in the sidebar but are accessible through the search bar and by linking directly to them.
+## Template Library & Iterative Support  
+- Pre-made templates for common genres (RPG, FPS, Puzzle, Adventure)  
+- AI suggestions for improvements and design refinements  
+- Faster prototyping through reusable components  
+
+<Callout type="tip">
+  Zerlo combines **ease of use** with **professional-grade results** — making it the ultimate creation tool for the next generation of game developers.
+</Callout>
